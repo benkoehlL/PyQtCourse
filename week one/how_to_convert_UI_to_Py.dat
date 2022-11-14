@@ -1,0 +1,3 @@
+for creating the .py file from the .ui file use command 
+
+$ pyuic6 -x "THE_UI_FILENAME".ui -o "THE_PY_FILENAME_YOU_WANT_TO_HAVE_IT_AFTER_CONVERSION".py
