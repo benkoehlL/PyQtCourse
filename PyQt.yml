@@ -1,0 +1,4 @@
+name: PyQt
+channels:
+  - defaults
+prefix: /home/benjamin/anaconda3/envs/PyQt
