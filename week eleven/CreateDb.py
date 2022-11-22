@@ -82,7 +82,7 @@ class Ui_Form(object):
             dbname = self.lineEdit.text()
 
             cur.execute("CREATE DATABASE {}".format(dbname))
-            self.labelResult.setText("Database {} Create ".format(dbname))
+            self.labelResult.setText("Database {} Created ".format(dbname))
 
         except mc.Error as e:
             self.labelResult.setText("Database Creation Failed")
