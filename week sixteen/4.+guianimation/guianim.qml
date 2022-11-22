@@ -38,7 +38,7 @@ Window {
             RotationAnimator {
                 target: myBox
                 from: 0
-                to: 260
+                to: 360
                 duration:500
 
 
