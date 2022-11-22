@@ -55,7 +55,7 @@ class Ui_Form(object):
         self.pushButton.setFont(font)
         self.pushButton.setObjectName("pushButton")
 
-        #connect to singal
+        #connect to signal
         self.pushButton.clicked.connect(self.insert_data)
 
         self.verticalLayout.addWidget(self.pushButton)
